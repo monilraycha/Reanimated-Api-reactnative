@@ -41,14 +41,14 @@ export default function App() {
       <View style={styles.overlayContainer}>
         <View style={styles.headerRow}>
           <Image
-            source={require('./assets/image/menu-bar.png')}
+            source={require('../assets/image/menu-bar.png')}
             style={styles.menuIcon}
           />
 
           <Text style={styles.headerTitle}>Demo App</Text>
 
           <Image
-            source={require('./assets/image/boy.png')}
+            source={require('../assets/image/boy.png')}
             style={styles.profileImage}
           />
         </View>
@@ -63,7 +63,7 @@ export default function App() {
             <Animated.View style={[styles.listItem, listItemStyle]}>
               <View style={styles.listItemRow}>
                 <Image
-                  source={require('./assets/image/treadmill.png')}
+                  source={require('../assets/image/treadmill.png')}
                   style={styles.treadmillIcon}
                 />
                 <Text style={styles.timeText}>1 hour ago</Text>

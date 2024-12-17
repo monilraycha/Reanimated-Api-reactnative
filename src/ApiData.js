@@ -3,6 +3,8 @@ import React , {useEffect , useState} from 'react'
 
 const movieUrl = 'https://reactnative.dev/movies.json'
 
+// API CALL FETCH DATA EXAMPLE 
+
 export default function ApiData() {
 
 const [isLoading , setIsLoading] = useState(true);
